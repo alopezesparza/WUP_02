@@ -65,7 +65,14 @@ the average amount of vitamin c in c39 is 51.0 and in c52 its 64.5.the Q3 in c39
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+t.test(VitC~Cult,data=veggy)
+```  
+
+the probability of getting a result like we just got is .000000003405. that result tells me there's a big difference, the hypothesis is to be rejected. it is possible to compare but not likely.   
 
 # Discussion and Conclusion
 
-<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!--> 
+
+in today’s class we figured out how to use chatGPT to make a plot, we asked it to make the plot and then to center the title and make it bigger and bold. we copied that code and pasted it which gave us our first table, we then commented what we observed in the table and committed it, afterwards we went to our "cheat sheet" to grab our numerical descriptive results code and changed the names to what we had. after the code was run and the table created we commented on what we observed and committed it. finally, we went to our cheat sheet and copied the inferential results code and pasted on our page, we changed the names again ran the code and got our final table then commented our final observation and wrote our conclusion.
